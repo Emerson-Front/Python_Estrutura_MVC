@@ -20,9 +20,10 @@ class LoginController:
             # Valida as credenciais do usuário
             if LoginModel().validar_login(usuario.value, senha.value):
                 mensagem.value = "Login realizado com sucesso"
+                
             else:
                 mensagem.value = "Nome de usuário ou senha inválidos"
-
+                            
             page.update()  # Atualiza a página para refletir as mudanças
 
         # Define a função de login como o manipulador de clique do botão

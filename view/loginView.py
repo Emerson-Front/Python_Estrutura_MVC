@@ -4,7 +4,7 @@ import flet as ft
 
 # Função principal para criar a interface de login
 def main(page: ft.Page):
-    page.title = "Losgin"
+    page.title = "Login"
 
     # Cria um widget de texto para exibir mensagens
     mensagem = ft.Text()
@@ -19,7 +19,7 @@ def main(page: ft.Page):
     # Adiciona os elementos da interface à página
     page.add(usuario, senha, mensagem, botao)
 
-    page.add(ft.Text("*Usuário: emerson, Senha: 123*"))
+    page.add(ft.Text("*Usuário: emerson, Senha: 123*", color="red"))
 
     # Retorna os elementos da interface para o controlador
     return usuario, senha, mensagem, botao
