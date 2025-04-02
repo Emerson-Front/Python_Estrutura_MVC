@@ -1,4 +1,8 @@
-from controller.loginController import LoginController
+import flet as ft
+import route
 
-# Cria uma instância do controlador de login
-LoginController()
+def main(page: ft.Page):
+    
+    route.Route(page, page.route)
+          
+ft.app(target=main)

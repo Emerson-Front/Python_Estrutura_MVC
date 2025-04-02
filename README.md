@@ -27,6 +27,8 @@
 <ul>
     <li>Implementação do padrão MVC para organização do código</li>
     <li>Empacotamento do app Flet com o <strong>flet pack</strong> para distribuição multiplataforma</li>
+    <li>Utilização do <strong>flet pack</strong> para empacotar o aplicativo em um arquivo executável</li>
+    <li>Sistema de rotas adicionado</li>
 </ul>
 
 <h2>Instruções para Empacotar o Aplicativo</h2>
